@@ -36,7 +36,7 @@ class DevConfig(Config):
     """
     Child configurations with the Config passed in as a class.
     """
-   SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://jared:12345@localhost/pitch2'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://jared:12345@localhost/pitch2'
     DEBUG = True
 
 
